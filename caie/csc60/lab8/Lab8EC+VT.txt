@@ -1,0 +1,64 @@
+Script started on Tue 17 May 2016 12:45:02 PM PDT
+[caie@atoz:21]> gcc ccs[K[K[Kcsc60mshell1.c
+[caie@atoz:22]> a.out
+csc60mshell> ls > lsout   1   lsout
+Child returned status: 0
+csc60mshell> cat redir.c
+#include <unistd.h>
+int main ()
+{
+    int fileId;
+    fileId = creat( "x.lis",0640 );
+    if( fileId < 0 )  {  
+	printf( stderr, "error creating x.lis\n“ ); 
+	exit (1);     
+    }
+    dup2( fileId, stdout ); /* copy fileID to stdout */
+    close( fileId );     		
+    execl( "/bin/ls", "ls", 0 );
+}
+Child returned status: 0
+csc60mshell> wc < ls.out' 
+Child returned status: 0
+csc60mshell> wc    ls
+a.out  csc60mshell1.c  csc60mshell.c  execvp.c	Lab8EC+VT.txt  lab9  lsout  ls.out  redir.c  waitpid.c
+Child returned status: 0
+csc60mshell> cd /caie/bin
+The directory cannot be found
+csc60mshell> cd 
+csc60mshell> cd ../
+csc60mshell> pwd
+/gaia/class/student
+csc60mshell> /caie/bin/ps
+csc60mshell> pwd
+/gaia/class/student
+csc60mshell> in  find.  .-name redir     execvp.c
+Error creating file.
+Child returned status: 256
+csc60mshell> wc redir.c
+wc: redir.c: No such file or directory
+Child returned status: 256
+csc60mshell> pwd
+/gaia/class/student
+csc60mshell> cd lab8/     caie/lab8    csc60/lab8
+csc60mshell> ls
+a.out  csc60mshell1.c  csc60mshell.c  execvp.c	Lab8EC+VT.txt  lab9  lsout  ls.out  redir.c  waitpid.c
+Child returned status: 0
+csc60mshell> wc redir.c
+ 13  47 312 redir.c
+Child returned status: 0
+csc60mshell> pwd
+/gaia/class/student/caie/csc60/lab8
+csc60mshell> cat redir.c ls.out > out.txt 
+Too many arguments.
+Child returned status: 139
+csc60mshell> gcc - o test test    ^[[D^[[D                o test csc60mshell1.c ^[[D^[[C          -g
+Too many arguments.
+Child returned status: 139
+csc60mshell> exit    exit
+Child returned status: 0
+csc60mshell> exit
+[caie@atoz:23]> exit
+exit
+
+Script done on Tue 17 May 2016 12:49:31 PM PDT

@@ -1,0 +1,78 @@
+FIFO 
+Page 2 loaded into Frame 0
+Page 134525480 unloaded from Frame 1, Page 0 loaded into Frame 1
+Page -1081025896 unloaded from Frame 2, Page 3 loaded into Frame 2
+Page 134519962 unloaded from Frame 3, Page 3 loaded into Frame 3
+Page 1 unloaded from Frame 4, Page 2 loaded into Frame 4
+Page 65535 unloaded from Frame 5, Page 3 loaded into Frame 5
+Page 0 unloaded from Frame 6, Page 3 loaded into Frame 6
+Page 0 unloaded from Frame 7, Page 3 loaded into Frame 7
+Page 0 unloaded from Frame 8, Page 3 loaded into Frame 8
+Page 1 unloaded from Frame 9, Page 3 loaded into Frame 9
+Page -1 unloaded from Frame 10, Page 3 loaded into Frame 10
+Page 0 unloaded from Frame 11, Page 3 loaded into Frame 11
+Page 0 unloaded from Frame 12, Page 3 loaded into Frame 12
+Page 0 unloaded from Frame 13, Page 3 loaded into Frame 13
+Page 0 unloaded from Frame 14, Page 3 loaded into Frame 14
+Page 1 unloaded from Frame 15, Page 3 loaded into Frame 15
+Page 9609912 unloaded from Frame 16, Page 3 loaded into Frame 16
+Page 134525336 unloaded from Frame 17, Page 3 loaded into Frame 17
+Page -1 unloaded from Frame 18, Page 3 loaded into Frame 18
+Page -1081025936 unloaded from Frame 19, Page 3 loaded into Frame 19
+Page 3274064 unloaded from Frame 20, Page 3 loaded into Frame 20
+Page 134514145 unloaded from Frame 21, Page 3 loaded into Frame 21
+Page -1081025808 unloaded from Frame 22, Page 3 loaded into Frame 22
+Page 11231220 unloaded from Frame 23, Page 3 loaded into Frame 23
+24 page faults
+OPTIMAL 
+Page 2 loaded into Frame 0
+Page 2 unloaded from Frame 0, Page 0 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 2 loaded into Frame 0
+Page 2 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 3 unloaded from Frame 0, Page 3 loaded into Frame 0
+24 page faults
+LRU 
+Page 2 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 0 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 2 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+Page 0 unloaded from Frame 0, Page 3 loaded into Frame 0
+24 page faults

@@ -1,0 +1,141 @@
+Script started on Mon 15 Feb 2016 11:00:20 AM PST
+[caie@atoz:21]> pwd
+/gaia/class/student/caie
+[caie@atoz:22]> mkdir CSC060[K[K[K[K[K[K[K[K[K[K[Kcd CSC0[K[K[K[Kcsc60
+[caie@atoz:23]> ls
+a.out*	lab1.c	lab1.out
+[caie@atoz:24]> ls[K[Kpwd
+/gaia/class/student/caie/csc60
+[caie@atoz:25]> cd..[K
+cd.: Command not found.
+[caie@atoz:26]> cd..
+cd..: Command not found.
+[caie@atoz:27]> cd .
+[caie@atoz:28]> cd[K[Kls
+a.out*	lab1.c	lab1.out
+[caie@atoz:29]> cd ..
+[caie@atoz:30]> ls
+ActionListener.class  Documents/	lab02.class	Music/
+border.class	      Downloads/	lab04/		Pictures/
+border.java	      ericcai.lab1.txt	lab05/		Public/
+Calendar.class	      Gradebook.java	lab07/		Templates/
+Calendar.java	      html/		lab10/		typescript
+csc60/		      JulianDate.class	Multiply.class	Videos/
+Desktop/	      lab02/		Multiply.java
+[caie@atoz:31]> cd CSC[K[K[Kcsc60
+[caie@atoz:32]> ls >file1
+[caie@atoz:33]> cat file1
+a.out*
+file1
+lab1.c
+lab1.out
+[caie@atoz:34]> ls
+a.out*	file1  lab1.c  lab1.out
+[caie@atoz:35]> less file1
+[?1049h[?1h=a.out*
+file1
+lab1.c
+lab1.out
+[7mfile1 (END) [27m[K[K[K[7m(END) [27m[K[K [KESCESC[K^?^?[K[7m(END) [27m[K[K[7m(END) [27m[K[K[K[7m(END) [27m[K[K[?1l>[?1049l[caie@atoz:36]> file *
+a.out:    ELF 32-bit LSB executable, Intel 80386, version 1 (SYSV), dynamically linked (uses shared libs), for GNU/Linux 2.6.18, not stripped
+file1:    ASCII text
+lab1.c:   ASCII C program text
+lab1.out: ASCII text
+[caie@atoz:37]> rm file1
+[caie@atoz:38]> w
+ 11:02:47 up 131 days, 22:10,  9 users,  load average: 0.03, 0.03, 0.00
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+linz     pts/0    athena.ecs.csus. 09:35    1:03   0.66s  0.43s vim mux4x1.v
+singhpar pts/1    athena.ecs.csus. Sun15   18:48m  0.10s  0.10s -csh
+shilova  pts/2    varn.ecs.csus.ed 10:03   38:18   0.16s  0.02s script
+linz     pts/3    athena.ecs.csus. 09:40    5:10   0.19s  0.07s vim mux2x1.v
+shilova  pts/4    -                10:07   38:18   0.08s  0.01s script Andrey_S
+shilova  pts/5    -                10:08   38:18   0.14s  0.14s -sh -i
+caie     pts/6    athena.ecs.csus. 11:00    0.00s  0.10s  0.00s script ericcai.
+caie     pts/7    -                11:00    0.00s  0.09s  0.01s w
+chastanj pts/8    athena.ecs.csus. 10:42   19:20   0.19s  0.13s vim 2x4decoder.
+[caie@atoz:39]> who
+linz     pts/0        2016-02-15 09:35 (athena.ecs.csus.edu)
+singhpar pts/1        2016-02-14 15:52 (athena.ecs.csus.edu)
+shilova  pts/2        2016-02-15 10:03 (varn.ecs.csus.edu)
+linz     pts/3        2016-02-15 09:40 (athena.ecs.csus.edu)
+shilova  pts/4        2016-02-15 10:07
+shilova  pts/5        2016-02-15 10:08
+caie     pts/6        2016-02-15 11:00 (athena.ecs.csus.edu)
+caie     pts/7        2016-02-15 11:00
+chastanj pts/8        2016-02-15 10:42 (athena.ecs.csus.edu)
+[caie@atoz:40]> ps - u[K[Ku[K-u
+Warning: bad syntax, perhaps a bogus '-'? See /usr/share/doc/procps-3.2.8/FAQ
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+caie     18111  0.0  0.0 116736  2008 pts/6    Ss   11:00   0:00 -csh
+caie     18158  0.0  0.0 107120   816 pts/6    S+   11:00   0:00 script ericcai.
+caie     18160  0.0  0.0 107632   404 pts/6    S+   11:00   0:00 script ericcai.
+caie     18161  0.0  0.0 110368  1776 pts/7    Ss   11:00   0:00 -sh -i
+caie     18267  0.0  0.0 114476  1284 pts/7    R+   11:03   0:00 ps -u
+[caie@atoz:41]> ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 15018 18161 18160  0  80   0 - 27592 rt_sig pts/7    00:00:00 csh
+0 R 15018 18270 18161  1  80   0 - 27033 -      pts/7    00:00:00 ps
+[caie@atoz:42]> !!
+ps -l
+F S   UID   PID  PPID  C PRI  NI ADDR SZ WCHAN  TTY          TIME CMD
+0 S 15018 18161 18160  0  80   0 - 27592 rt_sig pts/7    00:00:00 csh
+0 R 15018 18276 18161  0  80   0 - 27033 -      pts/7    00:00:00 ps
+[caie@atoz:43]> w
+ 11:03:13 up 131 days, 22:11,  9 users,  load average: 0.02, 0.02, 0.00
+USER     TTY      FROM              LOGIN@   IDLE   JCPU   PCPU WHAT
+linz     pts/0    athena.ecs.csus. 09:35    1:29   0.66s  0.43s vim mux4x1.v
+singhpar pts/1    athena.ecs.csus. Sun15   18:49m  0.10s  0.10s -csh
+shilova  pts/2    varn.ecs.csus.ed 10:03   38:44   0.16s  0.02s script
+linz     pts/3    athena.ecs.csus. 09:40    5:36   0.19s  0.07s vim mux2x1.v
+shilova  pts/4    -                10:07   38:44   0.08s  0.01s script Andrey_S
+shilova  pts/5    -                10:08   38:44   0.14s  0.14s -sh -i
+caie     pts/6    athena.ecs.csus. 11:00    0.00s  0.10s  0.00s script ericcai.
+caie     pts/7    -                11:00    0.00s  0.08s  0.00s w
+chastanj pts/8    athena.ecs.csus. 10:42   19:46   0.19s  0.13s vim 2x4decoder.
+[caie@atoz:44]> !!![K[K#
+
+[caie@atoz:44]> 1#[K[K1[K!3
+javac infix.java
+javac: file not found: infix.java
+Usage: javac <options> <source files>
+use -help for a list of possible options
+[caie@atoz:45]> history
+     1	11:13	cd caie
+     2	11:13	cd lab10
+     4	11:13	infix.java
+     5	11:13	java infix
+     6	11:27	mkdir csc60
+     7	11:37	exiy
+     9	11:39	vim lab1.c
+    10	11:39	gcc lab1.c
+    12	11:40	a.out
+    13	11:40	a.out > lab1.out
+    14	11:40	exit
+    15	16:03	man
+    17	16:03	gcc
+    18	16:03	touch
+    19	16:03	top
+    20	16:05	quit
+    24	11:00	pwd
+    25	11:01	cd.
+    26	11:01	cd..
+    27	11:01	cd .
+    29	11:01	cd ..
+    31	11:01	cd csc60
+    32	11:01	ls > file1
+    33	11:01	cat file1
+    34	11:01	ls
+    35	11:02	less file1
+    36	11:02	file *
+    37	11:02	rm file1
+    39	11:02	who
+    40	11:03	ps -u
+    42	11:03	ps -l
+    43	11:03	w
+    44	11:03	javac infix.java
+    45	11:03	history
+[caie@atoz:46]> exit
+exit
+
+Script done on Mon 15 Feb 2016 11:04:14 AM PST

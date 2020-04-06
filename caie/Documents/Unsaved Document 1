@@ -1,0 +1,99 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+void makemove();
+int min(int depth)'
+int max(int depth);
+int evaluate();
+int checkWin();
+void checkLose();
+void getmove();
+void setup();
+void printboard();
+
+
+int board[8][7], maxdepth = 16;
+Piece Samurai1;
+Piece Samurai2;
+Piece Samurai3;
+Piece MSamurai1;
+Piece MSamurai2;
+Piece MSamurai3;
+Piece Ninja1;
+Piece Ninja2;
+Piece Ninja3;
+Piece MNinja1;
+Piece MNinja2;
+Piece MNinja3;
+Piece King1;
+Piece King2;
+
+void printboard() {
+	printf("");
+}
+
+void makemove() {
+	printf("He moves");
+}
+	
+void setup() {
+	board[1][4] = King2;
+	board[2][1] = Ninja1;
+	board[2][2] = Ninja2;
+	board[2][3] = Ninja3;
+	board[3][1] = MNinja1;
+	board[3][2] = MNinja2;
+	board[3][3] = MNinja3;
+	board[2][5] = Samurai1;
+	board[2][6] = Samurai2;
+	board[2][7] = Samurai3;
+	board[3][5] = MSamurai1;
+	board[3][6] = MSamurai2;
+	board[3][7] = MSamurai3;
+	// Board State for Opponent
+
+	board[8][4] = King1;
+	board[
+void getamove() {
+	printf("Your valid moves are");
+}
+
+void checkLose(int lose) {
+	if (lose == 1) {
+		
+	}
+}
+
+void checkWin(int win) {
+	if (win == 1) {
+		printf("You win");
+	}
+}
+class Piece {
+	int x, y;
+	public:
+	void set_coordinates (int x,int y) {
+		letter = x;
+		number = y;
+	void display_letter(char l);
+		dletter = l;
+};
+
+
+int main() { 
+	setup();
+	printboard();
+	for (;;)
+	{
+		getamove();
+		checkLose();
+		makemove();
+		checkLose();
+	}
+}
+
+
+
+	
+	
